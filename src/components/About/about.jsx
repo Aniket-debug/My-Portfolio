@@ -15,7 +15,7 @@ export default function About() {
           <div className="about__info">
             <p className="about__description">I am Aniket Agarwal. I am Well-versed in MERN Stack Development (MongoDB, Express.js, React.js, Node.js) along with that I am Strong at Data Structure & Algorithms, and Competitive Programming.<br/><br/>
             I am Passionate and Curious about Programming. I have Built many Full-stack Projects with the same technologies as well. </p>
-            <a href="https://drive.google.com/file/d/1VyR67g1tulFFjPuWQeIo5oTzxx3cROdW/view?usp=share_link" className="btn">Download CV</a>
+            <a href="https://drive.google.com/file/d/1RFnAAsssVIdI0nYVzfTNiW9g9jbP0Ljz/view?usp=sharing" className="btn">Download CV</a>
           </div>
 
           {/* SKILLS */}

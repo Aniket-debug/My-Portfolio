@@ -48,7 +48,7 @@ const Points = [
       title: "CodeForces",
       subtitle: "Competitive Programming",
       comment:
-        "Achived Specialist rating (Max - 1401)",
+        "Achived Specialist rating (Max - 1446)",
     },
     {
       id: 6,
@@ -56,7 +56,7 @@ const Points = [
       title: "CodeForces",
       subtitle: "Competitive Programming",
       comment:
-        "Secured All India Rank 271 in Round 792 (Div. 1 + Div. 2).",
+        "Secured All India Rank 32 in Codeforces Round 829 (Div. 2).",
     },
     {
       id: 7,

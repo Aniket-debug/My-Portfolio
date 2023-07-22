@@ -11,7 +11,7 @@ export default function Home() {
       <div className="intro">
         <img src = {Mypic} alt = "pic" width="190" className="home__img" / >
         <h1 className="home__name">Aniket Agarwal</h1>
-        <span className="home__designation">I am a MERN Stack Developer</span>
+        <span className="home__designation">I am a Software Developer</span>
         
 
         <HeaderSocials/>

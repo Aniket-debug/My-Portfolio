@@ -1,8 +1,8 @@
-import React from 'react'
+ import React from 'react'
 import "./experience.css"
 import twowaits from "../../assets/twowaits_logo.png";
 import byte from "../../assets/byte_logo.png";
-import opensource from "../../assets/opensource_logo.png";
+import opensource from "../../assets/gsoc.jpg";
 
 export default function Experience() {
   return (
@@ -23,14 +23,13 @@ export default function Experience() {
         </div>
 
         <div className="experience__item">
-          {/* <img src={opensource} alt="" width="80" className="experience__img"></img> */}
-          <h3 className="experience__title">SDE (Software Development Engineer) Intern</h3>
-          <h4 className="subtitle">DesiQnA</h4>
+          <img src={opensource} alt="" width="80" className="experience__img"></img>
+          <h3 className="experience__title">Student Software Developer</h3>
+          <h4 className="subtitle">Google Summer of Code</h4>
           <ul>
-            <li className="experience__description">• Worked on the Complete Designing and Development of the Fully Responsive website.</li>
-            <li className="experience__description">• Uploading Jobs and Interview Experience Section on the Website.</li>
-            <li className="experience__description">• Optimised the Code to increase the User Experience and User
-        Interface by 60%.</li>
+            <li className="experience__description">• Contributing to the pgRouting (A project that falls under the umbrella of OSGeo (Open Source Geospatial Foundation)).</li>
+            <li className="experience__description">• pgRouting is an open-source extension for the PostgreSQL database that provides geospatial routing functionality.</li>
+            <li className="experience__description">• It allows for the calculation of shortest paths and other routing-related operations within a spatial database environment.</li>
           </ul>
         </div>
 

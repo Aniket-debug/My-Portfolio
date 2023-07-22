@@ -65,23 +65,23 @@
 }
 
 .reactjs{
-    width:90%;
+    width:50%;
     background-color: rgb(225,209,92);
 }
 
 /****************** SKILLS SECTION  ********************/
 .nodejs{
-    width:80%;
+    width:50%;
     background-color: rgb(225,76,96);
 }
 
 .redux{
-    width:60%;
+    width:70%;
     background-color: rgb(108,108,299);
 }
 
 .cpp{
-    width:70%;
+    width:80%;
     background-color: rgb(225,209,92);
 }
 

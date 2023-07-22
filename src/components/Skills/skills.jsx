@@ -17,11 +17,8 @@ export default function skills() {
               <h3 className="skills__title">Frameworks/Libraries</h3>
               <ul type="disc">
                 <li className="skills__description">• React js</li>
-                <li className="skills__description">• Redux </li>
                 <li className="skills__description">• Node js</li>
                 <li className="skills__description">• Express js</li>
-                <li className="skills__description">• jQuery</li>
-                <li className="skills__description">• Bootstrap</li>
               </ul>
             </div>
 
@@ -29,10 +26,10 @@ export default function skills() {
               <img src = {language} alt = "" width="140" className="skills__img"/> 
               <h3 className="skills__title">Languages</h3>
               <ul type="disc">
-                <li className="skills__description">• Javascript</li>
-                <li className="skills__description">• HTML/CSS</li>
                 <li className="skills__description">• C++ </li>
                 <li className="skills__description">• Python</li>
+                <li className="skills__description">• Javascript</li>
+                <li className="skills__description">• HTML/CSS</li>
               </ul>
             </div>
 
@@ -40,9 +37,9 @@ export default function skills() {
               <img src = {database} alt = "" width="140" className="skills__img"/> 
               <h3 className="skills__title">Database</h3>
               <ul type="disc">
-                <li className="skills__description">• MongoDB</li>
                 <li className="skills__description">• MySQL </li>
                 <li className="skills__description">• PostgreSQL </li>
+                <li className="skills__description">• MongoDB</li>
               </ul>
             </div>
 

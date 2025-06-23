@@ -1,6 +1,5 @@
-import React from 'react';
+
 import "./about.css";
-// import Mypic from "../../assets/dsa_logo.webp";
 import Mypic from "../../assets/avatar-2.svg";
 import Aboutbox from './Aboutbox';
 
@@ -15,7 +14,7 @@ export default function About() {
           <div className="about__info">
             <p className="about__description">I am Aniket Agarwal. I am learning MERN Stack Development (MongoDB, Express.js, React.js, Node.js) along with that I am Strong at Data Structure & Algorithms, and Competitive Programming.<br /><br />
               I have secured many 2 digits All India Ranks in various Coding Contests. </p>
-            <a href="https://drive.google.com/file/d/1e-H20JQ7BviRMfGWHRZzxbIRyfGFiN9d/view?usp=sharing" className="btn">Download CV</a>
+            <a href="" className="btn">Download CV</a>
           </div>
 
           {/* SKILLS */}
@@ -48,6 +47,16 @@ export default function About() {
               </div>
               <div className="skills__bar">
                 <span className="skills__percentage redux"></span>
+              </div>
+            </div>
+
+            <div className="skills__data">
+              <div className="skills__titles">
+                <h3 className="skills__name">Java</h3>
+                <span className="skills__number ">50%</span>
+              </div>
+              <div className="skills__bar">
+                <span className="skills__percentage nodejs"></span>
               </div>
             </div>
 

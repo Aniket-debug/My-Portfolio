@@ -1,4 +1,4 @@
- import React from 'react'
+
 import "./experience.css"
 import twowaits from "../../assets/twowaits_logo.png";
 import byte from "../../assets/byte_logo.png";
@@ -8,7 +8,7 @@ export default function Experience() {
   return (
     <section className="experience container section" id="experience">
       <h2 className="section__title">Experience</h2>
-      
+
       <div className="experience__container grid">
 
         <div className="experience__item">

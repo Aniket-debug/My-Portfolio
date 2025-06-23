@@ -1,4 +1,3 @@
-import React from 'react'
 import "./home.css";
 import Mypic from "../../assets/profilePic.jfif"
 import HeaderSocials from './HeaderSocials';
@@ -12,14 +11,14 @@ export default function Home() {
         <img src = {Mypic} alt = "pic" width="190" className="home__img" / >
         <h1 className="home__name">Aniket Agarwal</h1>
         <span className="home__designation">I am a Software Developer</span>
-        
+
 
         <HeaderSocials/>
         <a href = "#contact" className="btn">Want to Connect ?</a>
         <ScrollDown/>
-      
+
       </div>
-      
+
       <Shapes/>
     </section>
   )

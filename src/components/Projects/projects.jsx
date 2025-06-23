@@ -1,12 +1,12 @@
-import React, { useState } from 'react'
+import { useState } from 'react';
 import "./projects.css"
 import Menu from "./Menu";
 
 export default function Projects() {
   const [items,setItems] = useState(Menu);
-  
+
   function changeitem(event){
-    
+
     const updatedItems = Menu.filter((curElem)=>{
       return curElem.category === event.target.getAttribute('val');
     })

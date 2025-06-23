@@ -19,10 +19,10 @@ function App() {
       <main className = "main">
         <Home/>
         <About/>
-        <Skills/>
         <Education/>
         <Experience/>
         {/* <Projects/> */}
+        <Skills/>
         <Achievements/>
         <Contact/>
       </main>

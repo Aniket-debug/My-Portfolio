@@ -1,4 +1,3 @@
-import React from 'react'
 import "./contact.css"
 
 export default function contact() {
@@ -9,7 +8,7 @@ export default function contact() {
       <div className="contact__container grid">
         <div className="contact__info">
           <h3 className="contact__title">Lets talk</h3>
-          <p className="contact__details">don't like forms? send me a mail at aniketgarg187@gmail.com</p>
+          <p className="contact__details">don't like forms? send me a mail at aniketagarwal512@gmail.com</p>
         </div>
 
         <form action="https://formspree.io/f/xyyalepn" className="contact__form" method="POST">
@@ -18,7 +17,7 @@ export default function contact() {
             <div className="contact__form-div">
               <input name="Name" type="text" className="contact__form-input" placeholder="Enter your Name"/>
             </div>
-            
+
             <div className="contact__form-div">
               <input name="Email" type="email" className="contact__form-input" placeholder="Enter your Email"/>
             </div>
@@ -33,7 +32,6 @@ export default function contact() {
             </div>
 
             <button className="btn">Send Message</button>
-          {/* </div> */}
         </form>
       </div>
     </section>

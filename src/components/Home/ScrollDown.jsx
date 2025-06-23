@@ -1,4 +1,3 @@
-import React from 'react'
 
 export default function ScrollDown() {
   return (
@@ -10,5 +9,5 @@ export default function ScrollDown() {
             </span>
         </a>
     </div>
-  ) 
+  )
 }

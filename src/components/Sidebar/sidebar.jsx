@@ -1,6 +1,6 @@
-import React, { useState } from "react";
 import "./sidebar.css";
 import Logo from "../../assets/mylogo.jfif";
+import { useState } from 'react';
 
 function Sidebar(){
     const [toggle,showMenu] = useState(false);
@@ -65,7 +65,7 @@ function Sidebar(){
 
             {/* fotter */}
             <div>
-                <span className="copyright">&copy; 2023 - 2024</span>
+
             </div>
             </aside>
 

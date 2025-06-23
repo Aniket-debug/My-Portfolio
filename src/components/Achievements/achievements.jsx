@@ -1,4 +1,4 @@
-import React from 'react';
+
 import "./achievements.css"
 import Points from './Points';
 
@@ -14,7 +14,7 @@ export default function Achievements() {
   return (
     <section className="achievements container" id="achievements">
       <h2 className="section__title">Achievements</h2>
-      <Swiper className="achievements__container grid" 
+      <Swiper className="achievements__container grid"
       modules={[Pagination]}
       spaceBetween={30}
       slidesPerView={1}
@@ -31,7 +31,7 @@ export default function Achievements() {
                 <h3 className="achievements__title">{title}</h3>
                 <span className="subtitle">{subtitle}</span>
                 <div className="comment">{comment}</div>
-              </SwiperSlide>  
+              </SwiperSlide>
             )
           })}
       </Swiper>

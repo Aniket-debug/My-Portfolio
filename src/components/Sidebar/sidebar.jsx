@@ -24,11 +24,7 @@ function Sidebar(){
                                 <i className="icon-user-following"></i>
                             </a>
                         </li>
-                        <li className="nav__item">
-                            <a href="#skills" className="nav__link">
-                                <i className="icon-briefcase"></i>
-                            </a>
-                        </li>
+
                         <li className="nav__item">
                             <a href="#education" className="nav__link">
                                 <i className="icon-graduation"></i>
@@ -39,11 +35,17 @@ function Sidebar(){
                                 <i className="icon-note"></i>
                             </a>
                         </li>
+
                         {/* <li className="nav__item">
                             <a href="#projects" className="nav__link">
                                 <i className="icon-layers"></i>
                             </a>
                         </li> */}
+                        <li className="nav__item">
+                            <a href="#skills" className="nav__link">
+                                <i className="icon-briefcase"></i>
+                            </a>
+                        </li>
                         <li className="nav__item">
                             <a href="#achievements" className="nav__link">
                                 <i className="icon-badge "></i>
@@ -54,11 +56,6 @@ function Sidebar(){
                                 <i className="icon-bubble"></i>
                             </a>
                         </li>
-                        {/* <li className="nav__item">
-                            <a href="#achievements" className="nav__link">
-                                <i className="icon-graph"></i>
-                            </a>
-                        </li> */}
                     </ul>
                 </div>
             </nav>

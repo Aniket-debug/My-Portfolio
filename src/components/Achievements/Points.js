@@ -3,7 +3,7 @@ import codeforces from "../../assets/codeforces_logo.png";
 import google from "../../assets/google_logo.png";
 import leetcode from "../../assets/leetcode_logo.png";
 import icpc from "../../assets/icpc.webp";
-import gate from "../../assets/GATE-2024.jpg";
+import gate from "../../assets/GATE_2024.jpg";
 
 const Points = [
   {
